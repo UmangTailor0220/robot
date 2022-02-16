@@ -1,0 +1,1 @@
+console.log ("Good morning ,Have a good day");
