@@ -107,19 +107,7 @@ cron.schedule("0 0,30 9-18 * * MON,TUE,WED,THU,FRI,SAT *", function (){
             }
             break;
     }
-    // client.on('interactionCreate', async interaction => {
-    //     if (!interaction.isCommand()) return;
     
-    //     const { commandName } = interaction;
-    
-    //     if (commandName === 'fruits') {
-    //         interaction.reply('Reacting with fruits!');
-    //         const message = await interaction.fetchReply();
-    //         message.react('🍎');
-    //         message.react('🍊');
-    //         message.react('🍇');
-    //     }
-    // });
 });
 
 //  hook.send("Hello")
